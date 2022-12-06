@@ -1,7 +1,10 @@
 import re
-#7:05
+
+# 80% of this code is just parsing the input properly
+# Overall not too bad
+
 def part1():
-    with open('aoc_2022_day05_large_input.txt') as file:
+    with open('input.txt') as file:
         lines = [line.strip() for line in file.readlines()]
         i = 0
         all_letters = []
@@ -33,7 +36,7 @@ def part1():
         print([stack[0] for stack in stacks])
 
 def part2():
-    with open('aoc_2022_day05_large_input.txt') as file:
+    with open('input.txt') as file:
         lines = [line.strip() for line in file.readlines()]
         i = 0
         all_letters = []
