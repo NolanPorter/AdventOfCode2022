@@ -22,7 +22,7 @@ def part2():
             r1, r2 = right.split('-')
             l1, l2, r1, r2 = [int(x) for x in [l1, l2, r1, r2]]
 
-            if (l1 >= r1 and l1 <= r2) or (r1 >= l1 and r1 <= l2):
+            if l1 <= r2 and l2 >= r1:
                 total += 1
 
         print(total)
