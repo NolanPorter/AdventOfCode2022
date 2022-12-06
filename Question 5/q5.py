@@ -33,7 +33,7 @@ def part1():
             stacks[t] = list(reversed(move_block)) + stacks[t]
 
 
-        print([stack[0] for stack in stacks])
+        print(''.join([stack[0] for stack in stacks]))
 
 def part2():
     with open('input.txt') as file:
@@ -64,7 +64,7 @@ def part2():
             stacks[f] = stacks[f][m:]
             stacks[t] = move_block + stacks[t]
 
-        print([stack[0] for stack in stacks])
+        print(''.join([stack[0] for stack in stacks]))
 
 def chunks(lst, n):
     """Yield successive n-sized chunks from lst."""
