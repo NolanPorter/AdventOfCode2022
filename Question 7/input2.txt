@@ -1,0 +1,27 @@
+$ cd /
+$ ls
+dir dir1
+dir dir2
+dir dir4
+1 file1
+1 file2
+$ cd dir1
+$ ls
+99999 file3
+1 file4
+$ cd ..
+$ cd dir2
+$ ls
+1 file5
+1 file6
+dir dir3
+$ cd dir3
+$ ls
+1 file7
+1 file8
+$ cd ..
+$ cd ..
+$ cd dir4
+$ ls
+1 file9
+1 file10
